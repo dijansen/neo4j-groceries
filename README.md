@@ -45,7 +45,7 @@ ORDER BY amount DESC
 ```
 
 ### PageRank & Node Similarity
-Create a named graph with the following query:
+Create a [named graph](https://neo4j.com/docs/graph-algorithms/current/projected-graph-model/named-graph/) with the following query:
 ```cypher
 CALL gds.graph.create(
     'my-named-graph',
