@@ -66,14 +66,14 @@ RETURN n.description, score
 ORDER BY score DESC
 ```
 You will see that 'whole milk' is part of everyone's diet.
-# Node similarity
+#### Node similarity
 ```cypher
 CALL gds.nodeSimilarity.stream('my-named-graph')
 YIELD node1, node2, similarity
 RETURN gds.util.asNode(node1), gds.util.asNode(node2), similarity
 ORDER BY similarity DESCENDING
 ```
-Not sure yet why customers would like to see similar customers...
+Not sure yet why customers would like to see similar customers, but it's the idea that counts!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
