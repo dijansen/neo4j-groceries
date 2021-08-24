@@ -17,7 +17,7 @@ python groceries.py
 ## Usage
 
 Navigate to Neo4j Browser, probably running on [http://localhost:7474](http://localhost:7474), unless you altered the Docker-command during installation. Below are several interesting queries to try. The schema is VERY simple:
-![model.png](http://dionjansen.nl/github/neo4j-groceries/model.png).
+![model.png](http://dionjansen.nl/github/neo4j-groceries/model.png)
 
 ### Show all nodes and relations
 Maybe not that interesting at all, but this query will show the full graph. 
